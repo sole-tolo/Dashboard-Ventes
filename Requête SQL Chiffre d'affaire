@@ -1,3 +1,4 @@
+```SQL
 -- chiffre d'affaire des commandes des deux derniers mois par pays
 SELECT SUM(orderdetails.quantityOrdered * orderdetails.priceEach) as CA, 
        customers.country,
@@ -7,6 +8,9 @@ JOIN orders ON orderdetails.orderNumber=orders.orderNumber
 JOIN customers ON customers.customerNumber=orders.customerNumber
 WHERE orders.orderDate >= DATE_SUB(CURRENT_DATE, INTERVAL 2 MONTH)
 GROUP BY customers.country, mois;
+```
+
+
 
 -- chiffre d'affaire des commandes des deux derniers mois par catégorie de produits
 
