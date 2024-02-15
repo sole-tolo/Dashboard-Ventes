@@ -12,3 +12,6 @@ Le dashboard doit proposer une vue en temps réel de 4 grands thèmes:
 5. -     Le taux d'évolution des ventes d'une année sur l'autre par catégorie de produit
   
 Voici quelques photos : 
+        
+![Image](sole-tolo/Dashboard-Ventes.png)
+
