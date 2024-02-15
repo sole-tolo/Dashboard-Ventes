@@ -33,6 +33,7 @@ logistique
 
 Finances
 
+<img width="579" alt="dash finance" src="https://github.com/sole-tolo/Dashboard-Ventes/assets/156327086/7be674ec-62b6-4af4-8484-f56ce765e19e">
 
 Ressources Humaines
 
