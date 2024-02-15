@@ -1,0 +1,42 @@
+-- Ressources Humaines
+-- Calcul KPI " Les 2 vendeurs ayant le CA le plus élevé chaque mois"
+-- On va utiliser customer, orderdetails, employees, orders
+-- Chiffres d'affaire = Somme (quantité de produits * prix)
+-- je dois utiliser une partition by 
+-- rajouter nom:prénom + current date 
+
+WITH TopVendeurs AS (
+    SELECT 
+        MONTH(orders.orderDate) as mois, 
+        SUM(orderdetails.quantityOrdered * orderdetails.priceEach) as CA, 
+        customers.salesRepEmployeeNumber,
+        RANK() OVER (PARTITION BY MONTH(orders.orderDate) ORDER BY SUM(orderdetails.quantityOrdered * orderdetails.priceEach) DESC) as classement
+    FROM 
+        orderdetails
+        JOIN orders ON orderdetails.orderNumber = orders.orderNumber
+        JOIN customers ON customers.customerNumber = orders.customerNumber
+    WHERE 
+        YEAR(orders.orderDate) = 2022
+	GROUP BY 
+        MONTH(orders.orderDate), customers.salesRepEmployeeNumber
+)
+-- Sélectionnez les deux meilleurs SalesRepEmployeeNumber de chaque mois
+SELECT mois, CA, salesRepEmployeeNumber
+FROM TopVendeurs
+WHERE classement <= 2;
+
+-- VIEUX TRAVAUX, NE PAS REGARDER
+
+-- et ici sans le rank et partition by 
+SELECT MONTH(MAX(orders.orderDate)) as mois, SUM(orderdetails.quantityOrdered * orderdetails.priceEach) as CA, customers.salesRepEmployeeNumber
+FROM orderdetails
+JOIN orders ON orderdetails.orderNumber = orders.orderNumber
+JOIN customers ON customers.customerNumber=orders.customerNumber
+WHERE YEAR(orders.orderDate)=2022
+GROUP BY customers.salesRepEmployeeNumber
+ORDER BY CA DESC;
+
+
+
+
+
