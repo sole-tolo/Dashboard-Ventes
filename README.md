@@ -27,5 +27,15 @@ Ventes encore
 
 <img width="582" alt="dahs logistique" src="https://github.com/sole-tolo/Dashboard-Ventes/assets/156327086/02198ec6-28d7-4a63-a77c-587b78672942">
 
+logistique 
+
+<img width="582" alt="dahs logistique" src="https://github.com/sole-tolo/Dashboard-Ventes/assets/156327086/e218cd5b-14c7-4132-b4aa-44acf3264708">
+
+Finances
+
+
+Ressources Humaines
+
+
 
 
