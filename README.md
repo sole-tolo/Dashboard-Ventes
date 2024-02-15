@@ -40,6 +40,8 @@ Finances
 
 Ressources Humaines
 
+<img width="585" alt="dash RH" src="https://github.com/sole-tolo/Dashboard-Ventes/assets/156327086/9b9feef3-24f2-4da6-98d6-268fcef0a352">
+
 
 
 
