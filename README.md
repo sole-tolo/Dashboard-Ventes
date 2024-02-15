@@ -35,6 +35,9 @@ Finances
 
 <img width="579" alt="dash finance" src="https://github.com/sole-tolo/Dashboard-Ventes/assets/156327086/7be674ec-62b6-4af4-8484-f56ce765e19e">
 
+<img width="580" alt="finance2" src="https://github.com/sole-tolo/Dashboard-Ventes/assets/156327086/840b8dd5-c804-4e71-89d2-49c804569549">
+
+
 Ressources Humaines
 
 
