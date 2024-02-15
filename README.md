@@ -1,8 +1,8 @@
 DASHBOARD Actualisable
 
-Une société de vente de jouet nous a sollicié pour réaliser un 
+Une société de vente de maquettes de voitures nous a sollicié pour réaliser un 
 tableau de bord actualisable permettant de suivre en temps réel plusieurs indicateurs.
-L'entreprise dispose de plusieurs base de données sur les clients, les produits vendus,
+L'entreprise dispose de plusieurs bases de données sur les clients, les produits vendus et
 les commandes réalisées.
 Le dashboard doit proposer une vue en temps réel de 4 grands thèmes:
 
@@ -10,6 +10,8 @@ Le dashboard doit proposer une vue en temps réel de 4 grands thèmes:
 2. -     Le stocks des 5 produits les plus commandés
 4. -     Les deux meilleurs vendeurs de chaque mois
 5. -     Le taux d'évolution des ventes d'une année sur l'autre par catégorie de produit
+  
+Nous avons construit un dashbord qui permet d'aller au délà de la demande du client. 
   
 Voici quelques photos : 
 
