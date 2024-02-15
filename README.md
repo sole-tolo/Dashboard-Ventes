@@ -13,4 +13,9 @@ Le dashboard doit proposer une vue en temps réel de 4 grands thèmes:
   
 Voici quelques photos : 
 
+<img width="578" alt="accueil" src="https://github.com/sole-tolo/Dashboard-Ventes/assets/156327086/ab21bb03-40e1-4041-a4fa-7a40bebf8a91">
+
+
 <img width="580" alt="dahs ventes" src="https://github.com/sole-tolo/Dashboard-Ventes/assets/156327086/c776331f-1ef4-477f-9753-1ce25bef5dc8">
+
+
